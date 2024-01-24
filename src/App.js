@@ -8,6 +8,7 @@ import DisplayProduct from "./components/DisplayProduct/DisplayProduct";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Showcase from "./components/Showcase/Showcase";
 import Crew from "./components/Crew/Crew";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <DisplayProduct />
       <Testimonial />
       <Crew />
+      <Footer />
     </div>
   );
 }

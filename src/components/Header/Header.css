@@ -28,6 +28,11 @@ header {
   cursor: pointer;
 }
 
+.logo .logo-icon {
+  font-size: 36px;
+  color: white;
+}
+
 .menu {
   display: flex;
   justify-content: space-around;
@@ -96,7 +101,7 @@ header {
   border-radius: 25px;
   transition: all ease 0.5s;
   position: absolute;
-  left: 20%;
+  left: 13%;
   width: fit-content;
   display: block;
   transition: all ease 0.5s;

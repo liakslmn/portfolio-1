@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./Header.css";
-import logo from "../../assets/logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import Dropdown from "./Dropdown";
+import { faHeadphonesAlt } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   const [show, setShow] = useState(false);
@@ -12,7 +12,7 @@ const Header = () => {
       <header>
         <div className="container header">
           <div className="logo" title="BleakTech">
-            <img src={logo} alt="logo" />
+            <FontAwesomeIcon icon={faHeadphonesAlt} className="logo-icon" />
             <h2>BleakTech</h2>
           </div>
           <div className="menu">
