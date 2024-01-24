@@ -1,5 +1,7 @@
-.App {
+.App,
+button {
   text-align: center;
+  font-family: "DM Sans", sans-serif;
 }
 
 .App-logo {

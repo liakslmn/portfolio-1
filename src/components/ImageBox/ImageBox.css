@@ -1,0 +1,14 @@
+.images-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  width: 150px;
+}
+
+.images-box img {
+  width: 100px;
+  height: 70px;
+}

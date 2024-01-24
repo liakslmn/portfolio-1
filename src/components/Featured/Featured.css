@@ -1,0 +1,21 @@
+.featured {
+  padding: 40px 0;
+  background: rgba(47, 24, 147, 1);
+}
+
+.featured h2 {
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+
+.featured .featured-hero-image {
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.featured .featured-images {
+  margin: 100px 0 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}

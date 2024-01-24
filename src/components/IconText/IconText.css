@@ -1,0 +1,17 @@
+.icon-text {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon-text .icon-text-icon {
+  width: 28px;
+  height: 28px;
+  color: white;
+}
+
+.icon-text p {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+}

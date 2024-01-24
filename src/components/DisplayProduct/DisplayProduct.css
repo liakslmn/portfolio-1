@@ -1,0 +1,29 @@
+.display-product-wrapper {
+  display: flex;
+  background: var(--purple-bg);
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  background: var(--purple-bg) url("../../assets/display-product-bg.svg")
+    no-repeat fixed center;
+  background-size: 100%;
+}
+
+.display-product-text p,
+.display-product-text h2 {
+  text-align: left;
+}
+
+.display-product-text p {
+  color: white;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.display-product-text h2 {
+  font-size: 42px;
+  letter-spacing: 1px;
+  line-height: 52px;
+  font-weight: 600;
+}

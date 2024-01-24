@@ -1,0 +1,89 @@
+.showcase {
+  background: var(--purple-bg);
+  padding: 40px 0;
+}
+
+.showcase p {
+  text-align: center;
+  line-height: 28px;
+  font-size: 18px;
+  color: var(--white-text);
+}
+
+.showcase-card-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  width: fit-content;
+  margin: 50px auto 0;
+}
+
+.showcase-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.showcase-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: white;
+  padding: 30px;
+  border-radius: 0 0 10px 10px;
+  justify-content: space-between;
+}
+
+.showcase-card-text h5,
+.showcase-card-text p {
+  text-align: left;
+  color: var(--purple-bg);
+  margin: 0;
+}
+
+.showcase-card-text h5 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.showcase-card-text p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 80%;
+  color: #15143966;
+}
+
+.showcase-card-text button {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background: transparent;
+  border: 2px solid #15143966;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 10px;
+  color: var(--purple-bg);
+}
+
+.showcase-card-text button:hover {
+  background: var(--purple-bg);
+  color: white;
+  border: 2px solid var(--purple-bg);
+}
+
+.showcase-card img {
+  width: 100%;
+}
