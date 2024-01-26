@@ -19,10 +19,12 @@ const Hero = () => {
         <button>Get started for Free</button>
         <div className="hero-images">
           <CardBox
+            header="Swift Quality"
             image={hero_image1}
             content="A high-quality solution for a beautiful startup website."
           />
           <CardBox
+            header="Demo Version"
             image={hero_image2}
             content="Learn more about Startup Framework in demo version."
           />

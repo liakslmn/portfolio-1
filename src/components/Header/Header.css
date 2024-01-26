@@ -228,4 +228,31 @@ header {
   color: var(--purple-bg);
 }
 
+.hamburger {
+  display: none;
+}
+
+.hamburger-icon {
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hamburger-icon:hover {
+  color: white;
+}
+
 /* Header Styling end */
+
+/* Responsive styling start */
+@media (max-width: 1024px) {
+  .menu {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+/* Responsive styling end */

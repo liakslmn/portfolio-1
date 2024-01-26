@@ -16,10 +16,10 @@ function App() {
       <Header />
       <Hero />
       <Featured />
+      <DisplayProduct />
       <Showcase />
       <Brands />
       <Info />
-      <DisplayProduct />
       <Testimonial />
       <Crew />
       <Footer />

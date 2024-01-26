@@ -15,8 +15,8 @@ const Showcase = () => {
         <h2>25 Ready-to-Use Pages</h2>
         <p>
           We prepared some high-quality web-pages, that you can use in your
-          projects. When <br /> you have to create your website you can use
-          these templates.
+          projects. When you have to create your website you can use these
+          templates.
         </p>
         <div className="showcase-card-wrapper">
           <ShowcaseCard

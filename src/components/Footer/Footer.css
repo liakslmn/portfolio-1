@@ -43,6 +43,16 @@
   align-items: center;
 }
 
+.container-1 a {
+  text-decoration: none;
+  color: var(--white-text);
+  transition: 0.3s;
+}
+
+.container-1 a:hover {
+  color: white;
+}
+
 .footer-icon-wrapper {
   display: flex;
   justify-content: space-between;
@@ -91,4 +101,31 @@
 
 .copyright {
   color: var(--white-text);
+}
+
+@media (max-width: 426px) {
+  .container-wrapper,
+  .container-divider {
+    flex-wrap: wrap;
+  }
+
+  .container-wrapper {
+    padding: 20px;
+  }
+
+  .container-divider {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 50px;
+    width: 100%;
+  }
+
+  .container-1 {
+    width: 100%;
+    align-items: center;
+  }
+
+  .container-1 p {
+    text-align: center;
+  }
 }

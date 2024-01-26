@@ -22,8 +22,32 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 600;
+  font-size: 18px !important;
 }
 
 .cardbox p.thin {
   font-weight: 300;
+}
+
+@media (max-width: 426px) {
+  .cardbox {
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+  }
+
+  .cardbox h5 {
+    text-align: center;
+    color: white;
+  }
+
+  .cardbox img {
+    width: 100%;
+  }
+
+  .cardbox .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

@@ -1,12 +1,11 @@
 .display-product-wrapper {
   display: flex;
-  background: var(--purple-bg);
   justify-content: center;
   align-items: center;
   padding-top: 100px;
   background: var(--purple-bg) url("../../assets/display-product-bg.svg")
     no-repeat fixed center;
-  background-size: 100%;
+  background-size: 150%;
 }
 
 .display-product-text p,
@@ -26,4 +25,20 @@
   letter-spacing: 1px;
   line-height: 52px;
   font-weight: 600;
+}
+
+@media (max-width: 426px) {
+  .display-product-wrapper {
+    flex-wrap: wrap;
+    padding: 40px;
+    background: var(--purple-bg);
+  }
+  .display-product-text h2 {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .display-product-wrapper img {
+    display: none;
+  }
 }

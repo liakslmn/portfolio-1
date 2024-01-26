@@ -8,6 +8,8 @@
   line-height: 28px;
   font-size: 18px;
   color: var(--white-text);
+  width: 50%;
+  margin: 0 auto;
 }
 
 .showcase-card-wrapper {
@@ -86,4 +88,22 @@
 
 .showcase-card img {
   width: 100%;
+}
+
+@media (max-width: 426px) {
+  .showcase {
+    padding: 40px;
+  }
+
+  .showcase-card-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .showcase-card {
+    width: fit-content;
+  }
+
+  .showcase-card-text p {
+    width: 100%;
+  }
 }

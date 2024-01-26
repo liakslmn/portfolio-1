@@ -13,9 +13,38 @@
   cursor: pointer;
 }
 
+.featured h5 {
+  text-align: center;
+  line-height: 28px;
+  font-size: 18px;
+  color: var(--white-text);
+  font-weight: 500;
+  margin-top: 0;
+}
+
 .featured .featured-images {
   margin: 100px 0 50px;
   display: flex;
   justify-content: center;
   gap: 20px;
+  flex-wrap: wrap;
+}
+
+.featured .featured-images h5 {
+  color: white;
+  text-align: left;
+}
+
+@media (max-width: 426px) {
+  .featured {
+    padding: 40px;
+  }
+
+  .featured .featured-images {
+    margin: 50px 0 0;
+  }
+
+  .featured .featured-hero-image {
+    display: none;
+  }
 }

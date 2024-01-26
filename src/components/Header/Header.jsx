@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import Dropdown from "./Dropdown";
 import { faHeadphonesAlt } from "@fortawesome/free-solid-svg-icons";
 
@@ -38,6 +38,9 @@ const Header = () => {
             <div className="cta">
               <button className="custom">Contact Us</button>
             </div>
+          </div>
+          <div className="hamburger">
+            <FontAwesomeIcon icon={faBars} className="hamburger-icon" />
           </div>
         </div>
       </header>

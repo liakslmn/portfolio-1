@@ -9,10 +9,10 @@ const Featured = () => {
   return (
     <div className="featured">
       <div className="wrapper">
-        <h2>
-          We've created the product that will
-          <br /> help your startup look better
-        </h2>
+        <h2>Our Featured</h2>
+        <h5>
+          We've created the product that will help your startup look better!
+        </h5>
         <img className="featured-hero-image" src={featured_img1} alt="" />
         <div className="featured-images">
           <CardBox

@@ -100,3 +100,30 @@
 .crew-card .icon-wrapper .icon.linkedin:hover {
   color: #0077b5;
 }
+
+@media (max-width: 426px) {
+  .crew {
+    padding: 40px;
+    background: var(--purple-bg);
+  }
+
+  .crew-card-wrapper {
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+
+  .crew-card {
+    width: 100%;
+  }
+
+  .crew-card:nth-child(2) {
+    border-top: 2px solid #ebeaed;
+    border-bottom: 2px solid #ebeaed;
+    border-left: none;
+    border-right: none;
+  }
+
+  .crew button {
+    margin-bottom: 0;
+  }
+}

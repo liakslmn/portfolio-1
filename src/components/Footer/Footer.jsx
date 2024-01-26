@@ -21,8 +21,8 @@ const Footer = () => {
               <h2>BleakTech</h2>
             </div>
             <p>
-              Be sure to take a look at <br /> our Terms of Use and Privacy
-              Policy
+              Be sure to take a look at <br /> our{" "}
+              <a href="#">Terms of Use and Privacy Policy</a>
             </p>
             <div className="footer-icon-wrapper">
               <FontAwesomeIcon icon={faDiscord} className="footer-icon" />

@@ -17,8 +17,8 @@ const Brands = () => {
         <h2>Our Great Clients</h2>
         <p>
           Startup includes great form options for your startup projects. Each
-          component is <br /> coded for web which makes creating a website quick
-          and easy.
+          component is coded for web which makes creating a website quick and
+          easy.
         </p>
       </header>
       <div className="brands-images">
