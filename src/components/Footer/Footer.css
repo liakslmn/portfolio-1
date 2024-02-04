@@ -103,12 +103,11 @@
   color: var(--white-text);
 }
 
-@media (max-width: 426px) {
+@media (max-width: 1150px) {
   .container-wrapper,
   .container-divider {
     flex-wrap: wrap;
   }
-
   .container-wrapper {
     padding: 20px;
   }
@@ -126,6 +125,11 @@
   }
 
   .container-1 p {
+    text-align: center;
+  }
+
+  .footer-menu ul,
+  .footer-menu h4 {
     text-align: center;
   }
 }

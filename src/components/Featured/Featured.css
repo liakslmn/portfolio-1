@@ -35,6 +35,15 @@
   text-align: left;
 }
 
+@media (max-width: 1150px) {
+  .featured {
+    padding: 40px;
+  }
+  .featured .featured-hero-image {
+    width: 100%;
+  }
+}
+
 @media (max-width: 426px) {
   .featured {
     padding: 40px;

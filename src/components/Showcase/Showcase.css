@@ -90,6 +90,14 @@
   width: 100%;
 }
 
+@media (max-width: 1150px) {
+  .showcase-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 @media (max-width: 426px) {
   .showcase {
     padding: 40px;

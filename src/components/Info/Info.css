@@ -10,14 +10,16 @@
   margin: 80px 0;
 }
 
-@media (max-width: 426px) {
-  .info {
-    padding: 40px;
-  }
-
+@media (max-width: 1150px) {
   .info-container {
     flex-wrap: wrap;
     gap: 60px;
     margin: 80px 0 0;
+  }
+}
+
+@media (max-width: 426px) {
+  .info {
+    padding: 40px;
   }
 }

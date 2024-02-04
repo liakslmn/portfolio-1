@@ -60,9 +60,23 @@ h5 {
   display: flex;
   margin: 40px 0;
   gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* Responsive styling */
+
+@media (max-width: 1150px) {
+  .hero {
+    padding: 50px;
+  }
+  .hero .wrapper {
+    max-width: 100%;
+  }
+  .hero .hero-images {
+    gap: 30px;
+  }
+}
 
 @media (max-width: 426px) {
   .hero {
