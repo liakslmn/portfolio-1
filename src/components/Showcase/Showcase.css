@@ -12,6 +12,12 @@
   margin: 0 auto;
 }
 
+@media screen and (max-width: 500px) {
+  .showcase p {
+    width: auto;
+  }
+}
+
 .showcase-card-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

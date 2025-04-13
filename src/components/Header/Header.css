@@ -113,7 +113,7 @@ header {
   justify-content: space-around;
   gap: 20px;
   padding: 40px;
-  max-width: 60%;
+  max-width: unset;
 }
 
 .dropdowns ul {
